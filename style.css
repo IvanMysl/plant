@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+ :root{
+    --primary:#fff;
+    --black:#081800;
+    --green:#51C815;
+    --black2:#101C02;
+    --black3:#121E03;
+    --beige:#F7FFeC;
+
+ }
+body {
+  /* шрифти берем з макету */
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700px;
+}
+
+.container {
+  max-width: 1200px;
+  /* максимальна ширина береться з макету */
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
