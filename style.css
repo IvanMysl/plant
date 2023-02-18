@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   /* максимальна ширина береться з макету */
   width: 100%;
   padding: 0 15px;
@@ -55,6 +55,7 @@ body {
 
 .header {
   padding-top: 40px;
+  margin-bottom: 85px;
 }
 .header__inner {
   display: flex;
@@ -63,6 +64,7 @@ body {
 }
 .header__list {
   display: flex;
+  align-items: center;
 }
 .header__item {
   margin-right: 45px;
@@ -78,6 +80,10 @@ body {
 .header__link:hover {
   color: var(--green);
 }
+
+.header__item:hover {
+  color: var(--green);
+}
 .primary__btn {
   background-color: var(--black);
   cursor: pointer;
@@ -88,10 +94,57 @@ body {
   padding: 20px 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  position: relative;
+  box-shadow: 8px 8px 0px var(--green);
 }
-.primary__btn::before{
-  content: "";
-  position: absolute;
-  background-color: var(--green);
 
+/* home */
+.home__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.home__img {
+  max-width: 485px;
+  width: 100%;
+  object-fit: cover;
+}
+.home__title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 130%;
+  color: var(--green);
+}
+.home__subtitle {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 130%;
+  margin-bottom: 35px;
+}
+.home__descr {
+  margin-left: 185px;
+}
+.home__text {
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 45px;
+}
+.home__List {
+  margin-top: 74px;
+}
+.home--btn {
+  margin-bottom: 74px;
+}
+.home__list {
+  display: flex;
+  justify-content: space-between;
+}
+.home__number {
+  font-size: 43px;
+  line-height: 140%;
+  color: var(--green);
+}
+.home__number-descr {
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--black);
 }
